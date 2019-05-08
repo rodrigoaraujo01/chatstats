@@ -50,12 +50,7 @@ h1, h2 {
     color: #6EB8C2;
     outline: 0;
 }
- 
-.navbar-light .navbar-expand-md .navbar-nav .nav-link {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
- 
+  
 .navbar-light .navbar-brand {
     color: #008294;
 }
