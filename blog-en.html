@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+        <title>ChatStats – Crie estatísticas dos seus grupos de WhatsApp</title>
+ 
+        <!-- CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <!-- Favicon and touch icons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
+        <link rel="manifest" href="assets/ico/site.webmanifest">
+        <link rel="mask-icon" href="assets/ico/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        
+    </head>
+ 
+    <body>
+        <!-- beginning of the page's code -->
+
+        <!-- Top menu -->
+        <nav class="navbar fixed-top navbar-expand-md bg-light navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo.png" width="32" height="32" class="d-inline-block align-top" alt="">
+                    <span>ChatStats</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link scroll-link" href="#top-content">Topo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll-link" href="#features">Conheça</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll-link" href="#how-it-works">Como funciona</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll-link" href="#samples">Exemplos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll-link" href="blog-en.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+ 
+        <!-- Top content -->
+        <div id="main-content">
+            <div class="container my-4 py-4">
+                <div class="row py-4 my-4">
+                    <div class="col-2 col-md-0"></div> 
+                    <div class="col-12 col-md-8">
+                        <h1>This is the 11 year story behind the ChatStats</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <img src="assets/img/samples/1_overview.jpg" class="img-fluid rounded p-2" width="256" alt="">
+                        <img src="assets/img/samples/5_hourly.jpg" class="img-fluid rounded p-2" width="256" alt="">
+                        <div class="small mb-4"><i>ChatStats samples for group overview and hourly distribution</i></div>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-2 col-md-0"></div> 
+                    <div class="col-12 col-md-8">
+                        <p class="text-left">Today I released my first app, and while building it, I realized it’s development started 11 years ago. It wasn't at all like what it came to be, but the whole journey led me here, to launch day.</p>
+                        
+                        <p class="text-left">On 2008, me and my friends had been sending emails back and forth through a mailing list we had created the year before as a way for us to keep in touch after some of us graduated and moved to other cities. We were 11 young men begining to experience adulthood in different cities throughout the country: there was a lot to talk about.</p>
+                        
+                        <p class="text-left">That group was a huge success, we were sending hundreds of emails every month(we even discovered Gmail had a cap of 100 messages before it started a new thread). So, one afternoon, while I was browsing through Google Groups admin page, I discovered it was possible to extract the number of emails each of us had sent every month since the group was created.</p>
+                        
+                        <p class="text-left">The group was only 17 months old, so as a gag for the group, I copied the data one by one and plotted a monthly curve of emails sent per person using Python and Cairo. It got way better than I had anticipated, and everyone loved it, that first thread grew for months and they kept asking for more.</p>
+                        
+                        <img src="assets/img/blog/1_resenhas.png" class="img-fluid rounded" width="512" alt="">
+                        
+                        <div class="small mb-4"><i>This line plot made a huge success!</i></div>
+                        
+                        <p class="text-left">It turns out, people really like seeing that kind of data presented in a beautiful way. I got really involved on charting with Python and Cairo, and ended up sharing everything as an open-source library named <a href="https://github.com/rodrigoaraujo01/cairoplot">CairoPlot</a>.</p>
+
+                        <p class="text-left">Time went by and, in 2011, WhatsApp exploded in Brazil. Everyone discovered the chat app and started creating new groups and finding new ways to interact and understand the new technology. Groups for everything were spawning and, somehow at that time, the groups ended bringing people together rather than apart. Good ol' days, huh?</p>
+
+                        <p class="text-left">I was in one of these new groups that year and, come Christmas, we were going to have a small gathering to celebrate the year we had spent together. While thinking about the year, I decided to use our WhatsApp group chat history to create statistics and present them in an infographic.</p>
+                        
+                        <p class="text-left">Using Python, I figured out ways to count messages, plot the number of messages each day throughout the year and check who sent more messages each hour. Again, people were really impressed to see all that info presented to them!</p>
+
+                        <img src="assets/img/blog/2_caravana.jpg" class="img-fluid rounded" width="512" alt="">
+                        
+                        <img src="assets/img/blog/3_caravana.jpg" class="img-fluid rounded" width="512" alt="">
+                        
+                        <div class="small mb-4"><i>Pastel colors and bar charts were cool in 2011</i></div>
+
+                        <p class="text-left">That Python script was improved over time to be able to count pictures, videos, voice messages and characters. I even tried adding some sort of trending topics feature, but never got around to finishing it.</p>
+
+                        <p class="text-left">By 2015, I had been sending regular text statistics to my main groups and people kept asking for more. So by the end of that year, at another gathering, I decided to up my game and created the embryos for the images ChatStats generates. Those first images were handcrafted in Sketch, which turned out to be a great decision for the future, as it helped the implementation a lot.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <img src="assets/img/blog/4_sala.png" class="img-fluid rounded p-2" width="256" alt="">
+                        <img src="assets/img/blog/5_sala.png" class="img-fluid rounded p-2" width="256" alt="">
+                        <img src="assets/img/blog/6_confra.png" class="img-fluid rounded p-2" width="256" alt="">
+                        <div class="small mb-4"><i>ChatStats images were born like that</i></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2 col-md-0"></div> 
+                    <div class="col-12 col-md-8">
+    
+                        <p class="text-left">By 2016, I started to build a web service that would receive WhatsApp chats via email and reply with automatically generated images. I even got around to writing the code for the top 10 texters in Python and Cairo, but the hurdles of charging for services on the web made me give up.</p>
+
+                        <p class="text-left">Fast forward to this year. In january, I noticed I could run that Python script inside my iPhone through <a href="http://omz-software.com/pythonista/">Pythonista</a> and generate the text statistics a lot faster than I’ve been doing. With that, I could send those to more groups and more people got excited, to the point I noticed there could be an opportunity there.</p>
+
+                        <p class="text-left">So, in February I sat down and wrote the proof of concept for ChatStats: an app that could import WhatsApp history files, process them and generate a simple top 10. That first parser was an exact port from Python to Swift, but turned out great.</p>
+
+                        <p class="text-left">Steam picked up on the following weeks, to the point that I couldn't wait to get home from work and get back to ChatStats.</p>
+
+                        <p class="text-left">All of that led to today: launch day! ChatStats is ready for prime time and can generate 22 different images for WhatsApp groups, including hourly and weekly distributions of messages, champions and rankings for messages, characters, pictures, videos, voice messages, stickers, emojis and links, group interviews and best day analysis.</p>
+
+                        <p class="text-left">I've already got lots of ideas for new statistics and new features for the app, but first, let's get this one on the hands of the people! Go get it!</p>
+
+                        <img src="assets/img/blog/7_icon.png" class="img-fluid rounded mt-4" width="64" alt="">
+
+                    </div>
+                </div>
+            </div>            
+        </div>
+
+        <!-- Footer -->
+        <div id="footer" class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="m-0 p-0">Desenvolvido por Rodrigo Araújo</p>
+                        <p class="m-0 p-0">
+                            <a href="https://www.instagram.com/chatstatsbr/" class="text-secondary"><i class="fab fa-instagram">chatstatsbr</i></a>
+                        </p>
+                        <p class="m-0 p-0">
+                            <a href="https://twitter.com/chatstatsbr" class="text-secondary"><i class="fab fa-twitter"></i>chatstatsbr</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery-3.2.1.min.js"></script>
+        <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- <script src="assets/js/jquery.backstretch.min.js"></script> -->
+        <!-- <script src="assets/js/wow.min.js"></script> -->
+        <!-- <script src="assets/js/retina-1.1.0.min.js"></script> -->
+        <!-- <script src="assets/js/waypoints.min.js"></script> -->
+        <script src="assets/js/scripts.js"></script>
+    </body>
+</html>
