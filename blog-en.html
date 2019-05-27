@@ -86,19 +86,19 @@
                         
                         <p class="text-left">Be it for the novelty of adulthood, or just for trying to hang on to what was familiar, that group was a success. We were sending hundreds of emails every month (we even discovered Gmail had a cap of 100 messages before it started a new thread). So, one afternoon, while I was browsing through Google Groups admin page, I discovered it was possible to extract the number of emails each of us had sent every month since the group was created.</p>
                         
-                        <p class="text-left">The group was only 17 months old, so as a gag for the group, I manually copied the data, month by month, and plotted a monthly curve of emails sent per person using Python and Cairo. The charts were pretty simple, but we loved it. The thread where the statistics were introduced grew for months and the guys kept asking for more.</p>
+                        <p class="text-left">The group was only 17 months old, so as a gag for the group, I manually copied the data, month by month, and plotted a monthly curve of emails sent per person using Python and Cairo. The charts were pretty simple, but it did the job. The thread where the statistics were introduced grew for days.</p>
                         
                         <img src="assets/img/blog/1_resenhas.png" class="img-fluid rounded" width="512" alt="">
                         
-                        <div class="small mb-4"><i>This simple line plot was very successfull!</i></div>
+                        <div class="small mb-4"><i>This simple line plot was the start</i></div>
                         
-                        <p class="text-left">It turns out people liked seeing data presented in an inviting way. I got really involved on charting with Python and Cairo, and ended up sharing everything as an open-source library named <a href="https://github.com/rodrigoaraujo01/cairoplot">CairoPlot</a>.</p>
+                        <p class="text-left">As most magazines and websites have figured out, it turns out people liked seeing data presented in an inviting way. I got really involved on charting with Python and Cairo, and ended up sharing everything as an open-source library named <a href="https://github.com/rodrigoaraujo01/cairoplot">CairoPlot</a>.</p>
 
                         <p class="text-left">Time went by and, in 2011, <a href="https://www.whatsapp.com">WhatsApp</a> exploded in Brazil. It felt like everyone was discovering the chat app together, we were creating new groups and finding new ways to interact and understand the new technology. Groups for everything were spawning and, somehow at that time, they ended bringing people together rather than apart. (Good ol' days, huh?)</p>
 
                         <p class="text-left">As everyone, I was also part of many of these new groups that year. By Christmas, one group decided to host a small gathering to celebrate the year we had spent together. While thinking about that, I decided to use our WhatsApp group chat history to create statistics and present them in an infographic.</p>
                         
-                        <p class="text-left">Using Python, I figured out ways to count messages, plot the number of messages each day throughout the year and check who sent more messages each hour. People were really happy to see all that info presented to them!</p>
+                        <p class="text-left">I used Python to count messages, plot the number of messages each day throughout the year and check who sent more messages each hour. Once again, it was well received.</p>
 
                         <img src="assets/img/blog/2_caravana.jpg" class="img-fluid rounded" width="512" alt="">
                         
@@ -106,9 +106,7 @@
                         
                         <div class="small mb-4"><i>I guess pastel colors and bar charts were cool in 2011...</i></div>
 
-                        <p class="text-left">I improved that Python script over time to be able to count pictures, videos, voice messages and characters. I even tried adding some sort of trending topics feature, but never got around to finishing it.</p>
-
-                        <p class="text-left">By 2015, I had been using that script to send regular text statistics to my groups and some friends kept encouraging me. So by the end of that year, at another gathering, I decided to up my game and created the embryos for the images ChatStats generates. Those first images were handcrafted in <a href="https://www.sketch.com">Sketch</a>, which turned out to be a good decision for the future, as it helped the implementation a lot.</p>
+                        <p class="text-left">That Python script was improved over time to be able to count pictures, videos, voice messages and characters. And, by 2015, I had been using it to send regular text statistics to my groups for a while. By the end of that year, at another gathering, came the next step: creating modular images to share the statistics. Those were handcrafted in <a href="https://www.sketch.com">Sketch</a> and were the embryos of the images ChatStats generates today.</p>
                     </div>
                 </div>
 
@@ -125,13 +123,13 @@
                     <div class="col-2 col-md-0"></div> 
                     <div class="col-12 col-md-8">
     
-                        <p class="text-left">By 2016, I tried building a web service that would receive WhatsApp chats' history files via email and reply with automatically generated images. I even got around to writing the code for the top 10 texters in Python and Cairo, but the hurdles of charging for web services made me give up.</p>
+                        <p class="text-left">On 2016, I built a web service that received WhatsApp chats' history files via email and replied with automatically generated images. I even got around to writing the code for the top 10 texters in Python and Cairo, but the hurdles of charging for web services made me give up.</p>
 
-                        <p class="text-left">Fast forward to this year, 2019. In january, I noticed I could run that Python script from an iPhone through <a href="http://omz-software.com/pythonista/">Pythonista</a> and generate the text statistics a lot faster than what I’ve been doing. With that, I could send those to more groups and more people got excited, to the point I noticed there could be an opportunity there.</p>
+                        <p class="text-left">Fast forward to this year: 2019. In january, it dawned on me I could run that Python script from an iPhone through <a href="http://omz-software.com/pythonista/">Pythonista</a> and generate the text statistics a lot faster than what I had been doing. With that, I could send those to more groups, to the point I noticed there could be an opportunity there.</p>
                         
-                        <p class="text-left">So, in February I sat down and wrote the proof of concept for ChatStats: an app that could import WhatsApp chats' history files, process them and generate a simple top 10. That first parser was an exact port from Python to Swift, and worked great.</p>
+                        <p class="text-left">So, in February I sat down and wrote the proof of concept for ChatStats: an app that could import WhatsApp chats' history files, process them and generate a simple top 10. That first parser was an exact port from Python to Swift, but it did the job of exciting me.</p>
 
-                        <p class="text-left">Steam picked up on the following weeks, to the point that I couldn't wait to get home from work and get back to ChatStats. I created ways to generate the rankings and champions images, and even added some new statistics, as the group overview, best day, hourly and weekly analysis.</p>
+                        <p class="text-left">Steam picked up on the following weeks, to the point that I couldn't wait to get home from work to get back to ChatStats. I created ways to generate the rankings and champions images, and even added some new statistics, as the group overview, best day, hourly and weekly analysis.</p>
 
                         <p class="text-left">All of that led to today, May 27, launch day! ChatStats is ready for prime time and can generate up to 22 different images for WhatsApp groups, including hourly and weekly distributions of messages, champions and rankings for messages, characters, pictures, videos, voice messages, stickers, emojis and links, group interviews and best day analysis.</p>
 
